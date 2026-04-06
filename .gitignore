@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment files
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Testing / cache
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Uploaded/temp/generated files
+temp/
+tmp/
+*.tmp
+
+# FAISS index files if generated locally
+*.faiss
+*.pkl
+*.index
+
+# Model/download cache
+.huggingface/
+hf_cache/
+models/
+
+# Local databases if any
+*.db
+*.sqlite3
