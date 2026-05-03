@@ -1,10 +1,15 @@
 streamlit==1.33.0
 langchain==0.2.1
+langchain-core==0.2.3
 langchain-community==0.2.1
 langchain-huggingface==0.0.3
 langchain-text-splitters==0.2.0
-faiss-cpu>=1.11.0
+
+faiss-cpu==1.8.0
 sentence-transformers==2.7.0
 transformers==4.41.2
 torch>=2.0.0
+
 pypdf==4.2.0
+python-dotenv==1.0.1
+docx2txt==0.8
